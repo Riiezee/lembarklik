@@ -2,7 +2,18 @@
 
 LembarKlik adalah alat PDF offline untuk Windows dengan antarmuka Bahasa Indonesia. Aplikasi terbuka di browser, dan pemrosesan dokumen berjalan di laptop melalui alamat lokal `127.0.0.1`.
 
-## Mulai di Windows
+## Versi desktop Windows (64-bit)
+
+1. Unduh `LembarKlik-Windows-x64.zip` dari [GitHub Releases](https://github.com/Riiezee/lembarklik/releases) saat tersedia.
+2. Klik kanan ZIP dan pilih **Ekstrak Semua** atau **Extract All**.
+3. Buka folder `LembarKlik` hasil ekstrak.
+4. Klik dua kali `LembarKlik.exe`.
+
+Biarkan folder `_internal` tetap di samping `LembarKlik.exe`.
+
+![Tampilan utama LembarKlik dalam Bahasa Indonesia](docs/lembarklik-desktop.png)
+
+## Versi ZIP sumber di Windows
 
 1. Ekstrak ZIP dan buka folder `LembarKlik`.
 2. Jalankan `setup.bat` sekali dengan internet aktif. Setup memakai Python 3.11 atau lebih baru jika tersedia. Jika belum ada, setup mencoba memasang Python 3.13 lewat WinGet.
