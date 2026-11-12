@@ -1,21 +1,28 @@
 # LembarKlik 2.0
 
-LembarKlik adalah alat PDF offline untuk Windows dengan antarmuka Bahasa Indonesia. Aplikasi terbuka di browser, dan pemrosesan dokumen berjalan di laptop melalui alamat lokal `127.0.0.1`.
+LembarKlik adalah alat PDF offline untuk Windows dengan antarmuka Bahasa Indonesia. Semua dokumen diproses langsung di komputer.
 
-## Versi desktop Windows (64-bit)
+## Pilih cara menjalankan LembarKlik
 
-1. Unduh `LembarKlik-Windows-x64.zip` dari [GitHub Releases](https://github.com/Riiezee/lembarklik/releases) saat tersedia.
+| Versi | Cara buka | Unduhan |
+| --- | --- | --- |
+| Desktop Windows 64-bit | Klik dua kali `LembarKlik.exe`. Aplikasi terbuka di jendela sendiri. | ZIP desktop belum tersedia di repo. |
+| Manual Windows | Jalankan `setup.bat` sekali, lalu buka `run.bat` untuk menjalankan aplikasi di browser. | [Unduh LembarKlik.zip](./LembarKlik.zip?raw=true) |
+
+## Cara buka versi desktop
+
+1. Unduh `LembarKlik-Windows-x64.zip` saat paket desktop tersedia.
 2. Klik kanan ZIP dan pilih **Ekstrak Semua** atau **Extract All**.
 3. Buka folder `LembarKlik` hasil ekstrak.
 4. Klik dua kali `LembarKlik.exe`.
 
-Biarkan folder `_internal` tetap di samping `LembarKlik.exe`.
+Biarkan folder `_internal` tetap di samping `LembarKlik.exe`. Versi ini bisa langsung dibuka tanpa memasang Python. Kalau Windows meminta WebView2 Runtime, pasang komponen tersebut, lalu buka ulang aplikasi. LibreOffice diperlukan untuk mengubah Word, Excel, dan PowerPoint ke PDF.
 
 ![Tampilan utama LembarKlik dalam Bahasa Indonesia](docs/lembarklik-desktop.png)
 
-## Versi ZIP sumber di Windows
+## Cara pasang versi manual
 
-1. Ekstrak ZIP dan buka folder `LembarKlik`.
+1. Unduh [LembarKlik.zip](./LembarKlik.zip?raw=true). Ekstrak ZIP, lalu buka folder `LembarKlik`.
 2. Jalankan `setup.bat` sekali dengan internet aktif. Setup memakai Python 3.11 atau lebih baru jika tersedia. Jika belum ada, setup mencoba memasang Python 3.13 lewat WinGet.
 3. Jika muncul **Install LibreOffice now?**, pilih **Y** untuk mengaktifkan konversi Word, Excel, dan PowerPoint ke PDF. Pilih **N** jika ingin menyelesaikan setup standar.
 4. Setelah muncul **Setup complete**, jalankan `run.bat`. Biarkan jendela terminal tetap terbuka. Tekan Ctrl+C di terminal untuk menghentikan aplikasi.
