@@ -34,6 +34,11 @@ Jika WinGet tidak tersedia, pasang Python secara manual lalu jalankan kembali `s
 
 Bahasa Indonesia dipilih secara bawaan. Kontrol **ID / EN** di bagian atas aplikasi bisa digunakan untuk mengubah bahasa selama sesi browser.
 
+## Bahasa pemrograman
+
+- **Python** untuk layanan lokal dan pemrosesan dokumen.
+- **JavaScript** untuk interaksi di antarmuka. **HTML** menyusun tampilan dan **CSS** mengatur desainnya.
+
 ## Fitur
 
 | Kategori | Fitur |
