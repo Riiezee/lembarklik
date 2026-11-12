@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="local-token" content="__LOCAL_TOKEN__">
+<meta name="theme-color" content="#f6f8fc">
+<title data-i18n="LembarKlik — Your PDF workspace">LembarKlik — Ruang kerja PDF Anda</title>
+<link rel="icon" href="/logo.svg">
+<link rel="stylesheet" href="/app.css">
+<script src="/app.js" defer></script>
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <button class="brand" id="home" type="button"><img src="/logo.svg" alt=""><span>LembarKlik<small><span data-i18n="DESKTOP WORKSPACE">RUANG KERJA DESKTOP</span></small></span></button>
+    <p class="nav-label"><span data-i18n="WORKSPACE">RUANG KERJA</span></p>
+    <nav id="navigation" aria-label="Kategori alat" data-i18n-label="Tool categories"></nav>
+    <div class="sidebar-foot"><span class="live-dot"></span><div><strong><span data-i18n="Local session">Sesi lokal</span></strong><small><span data-i18n="Processing on this device">Diproses di perangkat ini</span></small></div></div>
+  </aside>
+  <main class="main">
+    <header class="topbar"><button class="mobile-brand" id="mobile-home" type="button"><img src="/logo.svg" alt=""> LembarKlik</button><span id="crumb">Ruang kerja <b>/</b> Semua alat</span><div class="top-actions">
+      <label class="language"><select id="language" aria-label="Bahasa antarmuka" data-i18n-label="Interface language"><option value="id" lang="id">ID</option><option value="en" lang="en">EN</option></select></label>
+      <span class="privacy"><span class="live-dot"></span><span data-i18n="On-device processing">Pemrosesan lokal</span></span>
+    </div></header>
+    <div class="content">
+      <section id="dashboard">
+        <div class="hero">
+          <div class="hero-copy"><div class="eyebrow"><span data-i18n="YOUR PRIVATE PDF STUDIO">RUANG KERJA PDF PRIBADI</span></div><h1><span data-i18n="Good work.">Kerja lebih mudah.</span><br><span data-i18n="Private files.">File tetap privat.</span></h1><p><span data-i18n="Organize, convert, and secure your documents in one place. Your files are processed on this device.">Atur, konversi, dan lindungi dokumen dalam satu tempat. File Anda diproses di perangkat ini.</span></p><button type="button" class="primary hero-button" id="explore"><span data-i18n="Explore tools">Jelajahi alat</span> <span aria-hidden="true">↓</span></button></div>
+          <div class="hero-art" aria-hidden="true">
+            <svg viewBox="0 0 360 254" fill="none">
+              <defs><pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.15" fill="#a5b4ff" opacity=".55"/></pattern><linearGradient id="sheet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5f7ff"/><stop offset="1" stop-color="#c7d0ff"/></linearGradient></defs>
+              <circle cx="185" cy="129" r="112" stroke="#687de3" opacity=".5"/><circle cx="185" cy="129" r="83" stroke="#687de3" opacity=".65"/><rect x="71" y="41" width="231" height="172" fill="url(#dots)" opacity=".8"/>
+              <g transform="translate(177 39) rotate(15)"><rect width="121" height="157" rx="16" fill="#3952cc" stroke="#91a1ff"/><path d="M21 101h71m-71 15h53m-53 15h63" stroke="#8fa2ff" stroke-width="3" stroke-linecap="round"/></g>
+              <g transform="translate(102 47) rotate(-11)"><rect width="128" height="169" rx="16" fill="url(#sheet)"/><path d="M22 104h83m-83 15h66m-66 15h77" stroke="#8b9bea" stroke-width="4" stroke-linecap="round"/><rect x="21" y="32" width="63" height="37" rx="8" fill="#2f49e9"/><text x="52" y="57" text-anchor="middle" fill="white" font-size="16" font-weight="750" font-family="system-ui">PDF</text></g>
+              <g transform="translate(235 150)"><rect width="73" height="66" rx="16" fill="#b9fae1"/><path d="M28 28v-6a8.5 8.5 0 0 1 17 0v6m-20 0h23a4 4 0 0 1 4 4v15a4 4 0 0 1-4 4H25a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4Zm11 10v4" stroke="#105b53" stroke-width="2.5" stroke-linecap="round"/></g>
+              <path d="M67 83v19m-9-9h18M306 82v15m-7-7h14M89 205v12m-6-6h12" stroke="#b0baff" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </div>
+        <section id="tool-library" class="library" aria-labelledby="library-title">
+          <div class="section-heading"><div><h2 id="library-title" data-i18n="Explore tools">Jelajahi alat</h2><p id="tool-count"><span data-i18n="Find the right tool for your next task.">Temukan alat untuk kebutuhan Anda.</span></p></div><label class="search"><span id="search-icon"></span><input id="search" type="search" aria-label="Cari alat" placeholder="Cari alat" data-i18n-label="Search tools" data-i18n-placeholder="Search tools"></label></div>
+          <div id="filters" class="filters" aria-label="Saring alat" data-i18n-label="Filter tools"></div>
+          <div id="tool-grid" class="tool-grid"></div>
+        </section>
+      </section>
+      <section id="workspace" hidden></section>
+      <footer>LembarKlik <span>·</span> <small data-i18n="Private by design">Privasi sejak awal</small></footer>
+    </div>
+  </main>
+</div>
+</body>
+</html>
