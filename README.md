@@ -6,12 +6,12 @@ LembarKlik adalah alat PDF offline untuk Windows dengan antarmuka Bahasa Indones
 
 | Versi | Cara buka | Unduhan |
 | --- | --- | --- |
-| Desktop Windows 64-bit | Klik dua kali `LembarKlik.exe`. Aplikasi terbuka di jendela sendiri. | ZIP desktop belum tersedia di repo. |
+| Desktop Windows 64-bit | Klik dua kali `LembarKlik.exe`. Aplikasi terbuka di jendela sendiri. | [Unduh LembarKlik-Windows-x64.zip](https://github.com/Riiezee/lembarklik/releases/download/v2.0.0/LembarKlik-Windows-x64.zip) |
 | Manual Windows | Jalankan `setup.bat` sekali, lalu buka `run.bat` untuk menjalankan aplikasi di browser. | [Unduh LembarKlik.zip](./LembarKlik.zip?raw=true) |
 
 ## Cara buka versi desktop
 
-1. Unduh `LembarKlik-Windows-x64.zip` saat paket desktop tersedia.
+1. [Unduh LembarKlik-Windows-x64.zip](https://github.com/Riiezee/lembarklik/releases/download/v2.0.0/LembarKlik-Windows-x64.zip).
 2. Klik kanan ZIP dan pilih **Ekstrak Semua** atau **Extract All**.
 3. Buka folder `LembarKlik` hasil ekstrak.
 4. Klik dua kali `LembarKlik.exe`.
